@@ -3,6 +3,9 @@
 - The dashboard we made was meant for the supervisors and caseworkers to make informed decisions.
 - This repository main purpose is to demo the streamlit app dashboard portion only. The only contributors are below.
 
+# Contributors
+| [Erle Granger II](https://github.com/ilEnzio) | [Lester Gomez](https://github.com/machine-17) | [Robert Giuffre](https://github.com/rgiuffre90) |
+
 # How to run streamlit app:
 1. `git clone https://github.com/Streamlit-App-Demo/Dashboard.git`
 2. Install packages using `pipenv install` or `pipenv shell`
@@ -21,9 +24,6 @@
 1. Basic Enrollment Stats: if the date range changes, and if within those observations the number of possible genders changes, the colors indicating gender in the legend may change.
 2. Exit Outcome Facet Chart: if the date range selected by the user does not contain at least one example of each exit outcome, the chart will fail to render.
 3. Exit Outcome Facet Chart: if the user zooms the 3 charts will become "unmoored" - the x axis moves.
-
-# Contributors
-| [Erle Granger II](https://github.com/ilEnzio) | [Lester Gomez](https://github.com/machine-17) | [Robert Giuffre](https://github.com/rgiuffre90) |
 
 # Libraries:
 ![pandas](https://img.shields.io/badge/-pandas-blue)
