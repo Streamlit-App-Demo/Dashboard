@@ -1,3 +1,14 @@
+# Description
+The Family Promise of Spokane Organization is a US-based nonprofit organization based in Spokane, WA. They are an organization that helps homeless families as well as preventing families from becoming homeless. They provide shelter for families as well as rental assitance. For the full description visit their website [Family Promise of Spokane](https://www.familypromiseofspokane.org/)
+
+# How to run streamlit app:
+1. `git clone https://github.com/Streamlit-App-Demo/Dashboard.git`
+2. Install packages using `pipenv install` or `pipenv shell`
+3. Type `streamlit run fps_dashboard/fps_app.py` to run dashboard
+
+## Demo:
+- Quick video about the app: [Youtube](https://youtu.be/MIn8YVSNczk)
+
 ### Known bugs:
 - From `ml_interpretations.py`
 1. Posx and posy should be finite values. Text and fig scaling issues.
@@ -9,44 +20,12 @@
 2. Exit Outcome Facet Chart.  If the date range selected by the user does not contain at least one example of each exit outcome, the chart will fail to render.
 3. Exit Outcome Facet Chart.  if the user zooms the 3 charts will become "unmoored" - the x axis moves.
 
-# Family Promise of Spokane
-
-You can find the deployed project at [Family Promise of Spokane](https://family-profile-styling-emily.d3hmwb1bmjh3u1.amplifyapp.com//).
-
-# Description
-
-The Family Promise of Spokane  Organization is a US-based nonprofit organization based in Spokane, WA. They are an organization that helps homeless families as well as preventing families from becoming homeless. They provide shelter for families as well as rental assitance. For the full description visit their website [Family Promise of Spokane](https://www.familypromiseofspokane.org/)
 # Contributors
 
-| [Dominick Bruno]() | [Robert Giuffre](https://github.com/rgiuffre90) | [Sara Cearc](https://github.com/cearac-sara) |
-| :---: | :---: | :---: | 
-| [<img src="https://ca.slack-edge.com/ESZCHB482-W012JHQU86N-44142d528214-512" width = "200" />]() | [<img src="https://avatars.githubusercontent.com/u/69161174?s=460&u=24e9833995e636841ff7fed6a3c5535c96d4949b&v=4" width = "200" />](https://github.com/rgiuffre90) | [<img src="https://avatars.githubusercontent.com/u/67298892?s=460&u=2c4c90762496cd094b55c68e75230fb0d13217b5&v=4" width = "200" />](https://github.com/cearac-sara) | 
-| TPL | Data Scientist | Web Developer |  
-|[<img src="https://github.com/favicon.ico" width="15"> ]() | [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/rgiuffre90) | [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/cearac-sara) | 
-| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/dbruno93/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/robert-giuffre/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/sara-cearc/) |
-| [Lester Gomez](https://github.com/machine-17) | [Erle Granger II](https://github.com/ilEnzio) | [Mudesir Suleyman](https://github.com/mudesir) |
-| [<img src="https://avatars.githubusercontent.com/u/68140323?s=400&u=249894a3f4684124a2fe6b050fba8ab255af842b&v=4" width = "200" />](https://github.com/machine-17) | [<img src="https://ca.slack-edge.com/ESZCHB482-W015P64MU5B-108d53177582-512" width = "200" />](https://github.com/ilEnzio) | [<img src="https://ca.slack-edge.com/ESZCHB482-W012R4C0T44-d512b3c6174c-512" width = "200" />](https://github.com/mudesir) | 
-| Data Scientist | Data Engineer | Data Scientist |  
-|[<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/machine-17) | [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/ilEnzio) | [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/mudesir) | [<img src="https://github.com/favicon.ico" width="15"> ]() |
-| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/lg17/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/erle-granger-a7b231/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/mudesir-suleyman-a0b891190/) |           
-| [Suzanne Cabral](https://github.com/suzannecabral) | [Andrew Muto]() | [Breson Whorely]() |
-| [<img src="https://avatars.githubusercontent.com/u/25539417?s=400&u=e48fba22ff44e3b615a393ca394ed864ef41e141&v=4" width = "200" />]() | [<img src="https://ca.slack-edge.com/ESZCHB482-W012R4ECJ1J-bbb0dcc461ae-512" width = "200" />]() | [<img src="https://https://ca.slack-edge.com/ESZCHB482-W017UE8LQP6-c55573e09a38-512" width = "200" />]() | 
-| Web Developer | Web Developer | Web Developer |  
-|[<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/suzannecabral) | [<img src="https://github.com/favicon.ico" width="15"> ]() | [<img src="https://github.com/favicon.ico" width="15"> ]() | 
-| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/suzanne-cabral/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ]() | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/brenson-w/) |
-             
+| [Erle Granger II](https://github.com/ilEnzio) | [Lester Gomez](https://github.com/machine-17) |[Robert Giuffre](https://github.com/rgiuffre90) |
 
-<br>          
 
-<br>
-<br>
-
-![fastapi](https://img.shields.io/badge/fastapi-0.60.1-blue)
 ![pandas](https://img.shields.io/badge/pandas-1.1.0-blueviolet)
-
-![uvicorn](https://img.shields.io/badge/uvicorn-0.11.8-ff69b4)
-![python-dotenv](https://img.shields.io/badge/python--dotenv-0.14.0-green)
-
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0.23.2-yellow)
 ![psycopg2](https://img.shields.io/badge/psycopg2--2.8.6-informational)
 ![fastapi-utils](https://img.shields.io/badge/fastapi--utils-0.2.1-informational)
