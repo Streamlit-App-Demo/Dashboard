@@ -1,5 +1,6 @@
 # Description
-- The Family Promise of Spokane Organization is a US-based nonprofit organization based in Spokane, WA. They are an organization that helps homeless families as well as preventing families from becoming homeless. They provide shelter for families as well as rental assitance. For the full description visit their website [Family Promise of Spokane](https://www.familypromiseofspokane.org/)
+- We worked on a student project for The Family Promise of Spokane Organization, a US-based nonprofit organization based in Spokane, WA. They are an organization that helps homeless families as well as preventing families from becoming homeless. They provide shelter for families as well as rental assitance. For the full description visit their website [Family Promise of Spokane](https://www.familypromiseofspokane.org/)
+- The dashboard we made was meant for the supervisors and caseworkers to make informed decisions.
 - This repository main purpose is to demo the streamlit app dashboard portion only. The only contributors are below.
 
 # How to run streamlit app:
@@ -13,16 +14,15 @@
 ### Known bugs:
 - From `ml_interpretations.py`
 1. Posx and posy should be finite values. Text and fig scaling issues.
-2. Shap - matplotlib = True is not yet supported for force plots with multiple samples! Example: Pick [Personal ID 53716]
+2. In shap section: (matplotlib = True) is not yet supported for force plots with multiple samples! Example: Pick [Personal ID 53716]
 3. Segmentation fault. Sometimes it crashes.
 
 - From `des_statistics.py`
-1. Basic Enrollment Stats - if the date range changes, and if within those observations the number of possible genders changes, the colors indicating gender in the legend may change. 
-2. Exit Outcome Facet Chart.  If the date range selected by the user does not contain at least one example of each exit outcome, the chart will fail to render.
-3. Exit Outcome Facet Chart.  if the user zooms the 3 charts will become "unmoored" - the x axis moves.
+1. Basic Enrollment Stats: if the date range changes, and if within those observations the number of possible genders changes, the colors indicating gender in the legend may change.
+2. Exit Outcome Facet Chart: if the date range selected by the user does not contain at least one example of each exit outcome, the chart will fail to render.
+3. Exit Outcome Facet Chart: if the user zooms the 3 charts will become "unmoored" - the x axis moves.
 
 # Contributors
-
 | [Erle Granger II](https://github.com/ilEnzio) | [Lester Gomez](https://github.com/machine-17) | [Robert Giuffre](https://github.com/rgiuffre90) |
 
 # Libraries:
