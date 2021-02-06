@@ -6,15 +6,15 @@
 # Contributors
 | [Erle Granger II](https://github.com/ilEnzio) | [Lester Gomez](https://github.com/machine-17) | [Robert Giuffre](https://github.com/rgiuffre90) |
 
-# How to run streamlit app:
+# How to run streamlit app
 1. `git clone https://github.com/Streamlit-App-Demo/Dashboard.git`
 2. Install packages using `pipenv install` or `pipenv shell`
 3. Type `streamlit run fps_dashboard/fps_app.py` to run dashboard
 
-## Demo:
+## Demo
 - Quick video about the app: [Youtube](https://youtu.be/MIn8YVSNczk)
 
-### Known bugs:
+### Known bugs
 - From `ml_interpretations.py`
 1. Posx and posy should be finite values. Text and fig scaling issues.
 2. In shap section: (matplotlib = True) is not yet supported for force plots with multiple samples! Example: Pick [Personal ID 53716]
@@ -25,7 +25,7 @@
 2. Exit Outcome Facet Chart: if the date range selected by the user does not contain at least one example of each exit outcome, the chart will fail to render.
 3. Exit Outcome Facet Chart: if the user zooms the 3 charts will become "unmoored" - the x axis moves.
 
-# Libraries:
+# Libraries
 ![pandas](https://img.shields.io/badge/-pandas-blue)
 ![matplotlib](https://img.shields.io/badge/-matplotlib-blue)
 ![altair](https://img.shields.io/badge/-altair-red)
