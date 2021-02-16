@@ -38,4 +38,4 @@
 ![streamlit](https://img.shields.io/badge/-streamlit-red)
 
 # Linked Repositories
-[Family Promise of Spokane Data Science](https://github.com/Lambda-School-Labs/family-promise-spokane-ds-b) 
+[Family Promise of Spokane Data Science](https://github.com/Lambda-School-Labs/deprecated-family-promise-spokane-ds-b) 
